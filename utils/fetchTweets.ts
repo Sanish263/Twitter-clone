@@ -1,8 +1,8 @@
 import { Tweet } from "../typings";
+import fetch from 'isomorphic-unfetch';
 
 export const fetchTweets = async () => {
-    const envar = process.env.NEXT_PUBLIC_BASE_URL
-    const res = await fetch(`${envar}/api/getTweets`)
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/getTweets`)
 
     const data = await res.json();
 
