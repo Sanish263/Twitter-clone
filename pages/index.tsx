@@ -36,7 +36,7 @@ const Home = ({tweets}: Props) => {
 
 export default Home
 
-export const getServerSideProps: GetServerSideProps = async (context) => {
+export const getServerSideProps: GetServerSideProps = async () => {
 
   const tweets = await fetchTweets();
 
