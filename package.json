@@ -9,7 +9,6 @@
     "@heroicons/react": "^1.0.6",
     "@portabletext/react": "^1.0.6",
     "@sanity/image-url": "^1.0.1",
-    "isomorphic-unfetch": "^3.1.0",
     "next": "latest",
     "next-auth": "^4.6.0",
     "next-sanity": "^0.5.2",

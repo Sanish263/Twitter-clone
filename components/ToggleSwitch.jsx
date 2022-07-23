@@ -7,8 +7,7 @@ import useDarkMode from '../hook/useDarkMode'
 
 function ToggleSwitch() {
 
-    const [setTheme, colorTheme, theme] = useDarkMode();
-	console.log(theme);
+    const [setTheme, colorTheme] = useDarkMode();
 
     return (
         <div>
